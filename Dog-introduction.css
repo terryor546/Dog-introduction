@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+a{
+    color: black;
+
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 60px;
+    
+    background-image: url("./images/otVOVlvTA1-Photoroom.png");
+    
+    border-bottom: 2px solid black;
+}
+.title{
+    width: 300px;
+    height: 60px;
+
+    font-size: 50px;
+    font-family: "LXGW Marker Gothic", sans-serif;
+    
+    background-color: antiquewhite;
+
+    margin: auto;
+
+    border-bottom: 2px solid black;
+}
+main{
+    width: 100%;
+    height: 600px;
+
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.Akita-Inu,
+.Tibetan-Mastiff,
+.Samoyed,
+.Saint-Bernard,
+.Rottweiler,
+.Husky,
+.Golden-Retriever,
+.German-Shepherd,
+.Bernese-Mountain-Dog,
+.Alaskan-Malamute {
+    width: 20%;
+    height: 43%;
+
+    transition-duration: 1s;
+    
+    opacity: 0;
+    
+    animation: fadeIn 2s ease-out forwards;
+}
+.Akita-Inu { 
+    animation-delay: 0s; 
+}
+.Tibetan-Mastiff { 
+    animation-delay: 0.5s; 
+}
+.Samoyed { 
+    animation-delay: 1s; 
+}
+.Saint-Bernard { 
+    animation-delay: 1.5s; 
+}
+.Rottweiler { 
+    animation-delay: 2s; 
+}
+.Husky { 
+    animation-delay: 2.5s; 
+}
+.Golden-Retriever { 
+    animation-delay: 3s; 
+}
+.German-Shepherd { 
+    animation-delay: 3.5s; 
+}
+.Bernese-Mountain-Dog { 
+    animation-delay: 4s; 
+}
+.Alaskan-Malamute { 
+    animation-delay: 4.5s; 
+}
+.Akita-Inu:hover,
+.Tibetan-Mastiff:hover,
+.Samoyed:hover,
+.Saint-Bernard:hover,
+.Rottweiler:hover,
+.Husky:hover,
+.Golden-Retriever:hover,
+.German-Shepherd:hover,
+.Bernese-Mountain-Dog:hover,
+.Alaskan-Malamute:hover {
+    filter: opacity(0.7);
+}
+.Akita-Inu-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/akita-inu-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.name {
+    text-align: center;
+    font-size: 35px;
+    font-family: "LXGW Marker Gothic", sans-serif;
+
+    opacity: 0;
+
+    transition-duration: 1s;
+}
+.Tibetan-Mastiff-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/Tibetan\ Mastiff-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Samoyed-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/Samoyed-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Saint-Bernard-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/Saint\ Bernard-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Rottweiler-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/Rottweiler-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Husky-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/husky-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Golden-Retriever-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/Golden\ Retriever-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.German-Shepherd-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/German\ Shepherd-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Bernese-Mountain-Dog-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/Bernese\ Mountain\ Dog-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Alaskan-Malamute-image{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/Alaskan\ Malamute-Photoroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Akita-Inu:hover .name,
+.Tibetan-Mastiff:hover .name,
+.Samoyed:hover .name,
+.Saint-Bernard:hover .name,
+.Rottweiler:hover .name,
+.Husky:hover .name,
+.Golden-Retriever:hover .name,
+.German-Shepherd:hover .name,
+.Bernese-Mountain-Dog:hover .name,
+.Alaskan-Malamute:hover .name{
+    opacity: 1;
+}
+@media screen and (max-width: 1245px){
+    .name{
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width: 1065px){
+    .name{
+        font-size: 28px;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    .name{
+        font-size: 26px;
+    }
+    
+}
+@media screen and (max-width: 450px){
+    .Akita-Inu{
+        width: 50%;
+    }
+    .Akita-Inu-image{
+        height: 90%;
+    }
+    .Tibetan-Mastiff{
+        width: 50%;
+    }
+    .Tibetan-Mastiff-image{
+        height: 90%;
+    }
+    .Samoyed{
+        width: 50%;
+    }
+    .Samoyed-image{
+        height: 90%;
+    }
+    .Saint-Bernard{
+        width: 50%;
+    }
+    .Saint-Bernard-image{
+        height: 90%;
+    }
+    .Rottweiler{
+        width: 50%;
+    }
+    .Rottweiler-image{
+        height: 90%;
+    }
+    .Husky{
+        width: 50%;
+    }
+    .Husky-image{
+        height: 90%;
+    }
+    .Golden-Retriever{
+        width: 50%;
+    }
+    .Golden-Retriever-image{
+        height: 90%;
+    }
+    .German-Shepherd{
+        width: 50%;
+    }
+    .German-Shepherd-image{
+        height: 90%;
+    }
+    .Bernese-Mountain-Dog{
+        width: 50%;
+    }
+    .Bernese-Mountain-Dog-image{
+        height: 90%;
+    }
+    .Alaskan-Malamute{
+        width: 50%;
+    }
+    .Alaskan-Malamute-image{
+        height: 90%;
+    }
+}
