@@ -306,7 +306,7 @@ footer{
         height: 10%;
     }
     .name{
-        font-size: 10px;
+        font-size: 4px;
     }
 }
 @media( min-width: 2500px ){
